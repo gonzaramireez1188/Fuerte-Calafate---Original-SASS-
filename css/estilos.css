@@ -1,0 +1,370 @@
+@charset "UTF-8";
+/*   IMPORTS   */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+/*  Código Habitaciones  */
+.flexhabitaciones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url(../imagenes/amanecer.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed; }
+
+.flexhabitaciones__texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  width: 700px;
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.4); }
+
+.flexhabitaciones__img {
+  padding: 30px; }
+
+.flexhabitaciones2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+
+.flexhabitaciones2__parrafo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px; }
+
+.flexhabitaciones2__imagen {
+  padding: 30px; }
+
+.flexhabitaciones__tamañoiframe {
+  width: 850px;
+  height: 490px;
+  padding: 20px; }
+
+/*  Código Servicios  */
+.flexservicios {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px; }
+
+.flexservicios__tamaño {
+  width: 70px;
+  height: 70px; }
+
+.flexservicios__iconos {
+  align-items: center;
+  padding: 15px; }
+
+.flexservicios__h3 {
+  font-size: 18px;
+  text-align: center; }
+
+.flexservicios__h2 {
+  text-align: center; }
+
+/*  Termina Código de Servicios  */
+/*  Código Protocolo  */
+.flexprotocolo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 20px; }
+
+.flexprotocolo__texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 20px; }
+
+.flexprotocolo__img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+  padding: 20px; }
+
+.flexprotocolo__img--tamaño {
+  width: 500px;
+  height: 350px; }
+
+/*  Termina Código de Protocolo  */
+/*  Código Gral.  */
+* {
+  padding: 0px;
+  margin: 0px; }
+
+html {
+  font-size: 100%;
+  font-family: 'Montserrat', 'Roboto', Arial, sans-serif; }
+
+body {
+  background-color: #D6DBD2; }
+
+h1, h2 {
+  color: #2274a5; }
+
+/*  Código Index  */
+.flexinicio {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #D6DBD2; }
+
+.flexinicio__PrimerTexto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  text-align: center; }
+
+.flexinicio__tamañoimg {
+  width: 100%;
+  height: 100%; }
+
+.flexinicio__Boton {
+  text-decoration: none;
+  color: white; }
+
+button {
+  padding: 9px 25px;
+  background-color: #0a1128;
+  text-decoration: none;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px; }
+
+.flex-index-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 7px;
+  background-color: #D6DBD2; }
+
+.flexinicio2 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 7px;
+  background-color: #D6DBD2; }
+
+.flexinicio__tamañoimg2 {
+  width: 415px;
+  height: 220px; }
+
+.flexinicio2__texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  text-align: center; }
+
+.flexinicio2__tamañoiframe {
+  width: 920px;
+  height: 420px; }
+
+.tercer-texto {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 50px;
+  text-align: center;
+  background-color: #818181; }
+
+/*  Formulario  */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; }
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+
+input[type=submit]:hover {
+  background-color: #45a049; }
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+/*  Termina Código del Index   */
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 12px; }
+  .flexinicio {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7px; }
+  .flexinicio__tamañoimg {
+    width: 100%;
+    height: 100%;
+    padding: 20px; }
+  .flexinicio__tamañoimg2 {
+    width: 100%;
+    height: 100%;
+    padding: 20px; }
+  .flex-index-img {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .flexinicio2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .flexinicio2__tamañoiframe {
+    width: 100%;
+    height: 100%;
+    padding: 20px; }
+  .flexhabitaciones2 {
+    flex-direction: column; }
+  .flexhabitaciones2__imagen {
+    padding: 20px 0px 20px 0px; }
+  .flexhabitaciones2__parrafo {
+    order: -1;
+    padding: 40px; }
+  .flexservicios {
+    flex-direction: column;
+    padding: 20px; }
+  .flexprotocolo {
+    justify-content: space-between; }
+  .flexprotocolo__img {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px; }
+  .flexprotocolo__img--tamaño {
+    width: 100%;
+    height: 100%;
+    padding: 20px; } }
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 12px; }
+  .flexinicio {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7px; }
+  .flexinicio__tamañoimg {
+    width: 100%;
+    height: 100%;
+    padding: 20px; }
+  .flexinicio__tamañoimg2 {
+    width: 100%;
+    height: 100%;
+    padding: 20px; }
+  .flex-index-img {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .flexinicio2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .flexinicio2__tamañoiframe {
+    width: 100%;
+    height: 100%;
+    padding: 20px; }
+  .flexhabitaciones2 {
+    flex-direction: column; }
+  .flexhabitaciones2__imagen {
+    padding: 20px 0px 20px 0px; }
+  .flexhabitaciones2__parrafo {
+    order: -1;
+    padding: 40px; }
+  .flexservicios {
+    flex-direction: column; }
+  .flexprotocolo {
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center; }
+  .flexprotocolo__img {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px; }
+  .flexprotocolo__img--tamaño {
+    width: 100%;
+    height: 100%;
+    padding: 20px; } }
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 100%; }
+  .flexinicio {
+    flex-direction: row;
+    padding-top: 7px; }
+  .flexinicio__tamañoimg {
+    width: 700px;
+    height: 400px;
+    padding: 15px; }
+  .flexinicio__tamañoimg2 {
+    width: 100%;
+    height: 100%;
+    padding: 10px; }
+  .flex-index-img {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+  .flexinicio2 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+  .flexinicio2__tamañoiframe {
+    width: 1000px;
+    height: 400px;
+    padding: 20px; }
+  .flexhabitaciones2 {
+    flex-direction: row; }
+  .flexhabitaciones2__imagen {
+    padding: 20px 0px 20px 0px; }
+  .flexhabitaciones2__parrafo {
+    order: -1;
+    padding: 40px; }
+  .flexservicios {
+    flex-direction: row;
+    padding: 20px; }
+  .flexprotocolo {
+    text-align: center; }
+  .flexprotocolo__img {
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 20px; }
+  .flexprotocolo__img--tamaño {
+    width: 50%;
+    height: 50%;
+    padding: 15px; } }

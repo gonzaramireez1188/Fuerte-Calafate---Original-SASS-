@@ -1,0 +1,65 @@
+/*  Código Servicios  */
+
+.flexservicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.flexservicios__tamaño{
+    width: 70px;
+    height: 70px;
+}
+
+.flexservicios__iconos{
+    align-items: center;
+    padding: 15px;
+}
+
+.flexservicios__h3{
+    font-size: 18px;
+    text-align: center;
+}
+
+.flexservicios__h2{
+    text-align: center;
+}
+
+/*  Termina Código de Servicios  */
+
+/*  Código Protocolo  */
+
+.flexprotocolo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+
+.flexprotocolo__texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.flexprotocolo__img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.flexprotocolo__img--tamaño{
+    width: 500px;
+    height: 350px;
+}
+
+/*  Termina Código de Protocolo  */
