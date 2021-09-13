@@ -81,33 +81,27 @@
       </div>
 
     <!--aca empieza el FORMULARIO-->
-    <div class="container" id="Reservacion">
-      <form>
-        <div class="col">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Nombre">
-          </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Apellido">
-          </div>
-        </div>
-        <div class="col">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Correo Electrónico">
-          </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="País">
-          </div>
-        </div>
-        <div class="col">
-          <div class="col">
-            <label for="fechaingreso">Fecha de Ingreso:<input type="date" class="form-control" placeholder="First name"></label>
-          </div>
-          <div class="col">
-            <label for="fechaegreso">Fecha de egreso:<input type="date" class="form-control" placeholder="Last name"></label>
-          </div>
-        </div>
+    <div class="container">
+      <h1 class="text-xxl-center">Reservas</h1>
+      <form action="action_page.php" id="Reservacion">
+    
+        <label for="fname">Nombre y apellido</label>
+        <input type="text" id="fname" name="nombre" placeholder="Tu nombre..">
+
+        <label for="fname">País</label>
+        <input type="text" id="fpais" name="pais" placeholder="Tu país..">
+    
+        <label for="country">Email</label>
+        <input type="text" id="lpais" name="pais" placeholder="Tu email..">
+    
+        <label for="subject">Fecha Ingreso</label>
+        <input type="date" id="lpais" name="pais" placeholder="Tu email..">
+
+        <label for="subject">Fecha Egreso</label>
+        <input type="date" id="lpais" name="pais" placeholder="Tu email.."> <br>
+    
         <input type="submit" value="Submit">
+    
       </form>
     </div>
     <!--aca termina el FORMULARIO-->
